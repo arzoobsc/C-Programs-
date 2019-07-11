@@ -1,6 +1,7 @@
 // 2+4+6+8+........+n = sum.
 
 #include<stdio.h>
+#include<conio.h>
 void main(){
     int lastNum,sum = 0;
     printf("Enter last Number :");
@@ -21,6 +22,7 @@ void main(){
     }
     
     printf(" = %d",sum);
+    getch();
 }
 /*
     Output =>
