@@ -1,4 +1,4 @@
-// 1+2+3+4+.........+n.
+// 2,4,6,8,.........,n.
 #include <stdio.h>
 
 void main()
@@ -6,7 +6,7 @@ void main()
     int lastNum;
     printf("Enter last Number :");
     scanf("%d", &lastNum);
-    for (int i = 1; i <= lastNum; i++)
+    for (int i = 2; i <= lastNum; i += 2)
     {
         printf("%d\n", i);
     }
